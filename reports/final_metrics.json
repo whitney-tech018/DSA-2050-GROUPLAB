@@ -1,0 +1,19 @@
+{
+  "model": "Logistic regression",
+  "n_test": 680,
+  "cv_mean_f1": 0.4701,
+  "test_accuracy": 0.7,
+  "test_f1": 0.4486,
+  "test_precision": 0.5845,
+  "test_recall": 0.364,
+  "confusion_matrix_0_1": [
+    [
+      393,
+      59
+    ],
+    [
+      145,
+      83
+    ]
+  ]
+}

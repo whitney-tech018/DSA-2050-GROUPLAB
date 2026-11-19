@@ -1,0 +1,11 @@
+{
+  "selected_model": "Logistic regression",
+  "best_params": {
+    "model__C": 1
+  },
+  "primary_metric": "f1",
+  "cv_mean_f1": 0.47009865843703824,
+  "rationale": "We selected logistic regression (C=1) using F1, the metric agreed before comparing models. Its 5-fold stratified CV mean F1 was 0.470 (SD 0.053) against 0.398 (SD 0.049) for the best decision tree (max_depth=3). The 0.072 gap is larger than the fold spread, the model is ahead or level in all five folds, and its variability is no worse than the tree's, so the advantage is not luck. It also had higher precision (0.62 vs 0.57) and recall (0.38 vs 0.32). Out-of-fold, it missed 566 of 910 churners (62%) and recall was uneven: 0.22 for Established customers (509 false negatives) versus 0.78 for New customers; we accept this as a documented limitation and a reason for monitoring and threshold review. Logistic regression is also simple, fast and easy to explain to the business. C=1 and C=10 tied, so we kept the more regularised C=1.",
+  "random_seed": 42,
+  "scikit_learn_version": "1.9.1"
+}
