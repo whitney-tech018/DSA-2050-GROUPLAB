@@ -16,7 +16,7 @@ The project was completed collaboratively using one shared notebook and one GitH
 
 | Group member | Student ID | Work completed | GitHub username or commit reference |
 |---|---|---|---|
-| Victor Apamo | [ID] | Data inspection, preprocessing and leakage prevention |
+| Victor Apamo | 673804 | Data inspection, preprocessing and leakage prevention |
 | Enzo Sylvain| [] | Model development, cross-validation and model selection |
 | [Whitney Jebor] | [673308] | Error analysis, subgroup evaluation, permutation importance and documentation | 
 
