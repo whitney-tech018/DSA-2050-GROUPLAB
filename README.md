@@ -188,26 +188,6 @@ Errors are concentrated among Established customers. The model produced 509 fals
 
 The final test set is intended to provide an independent evaluation of the selected model on unseen data. Using its results to adjust hyperparameters, features or classification thresholds would introduce bias and compromise the reliability of the final performance estimate.
 
-## Evidence checklist
-
-- [ ] Executed notebook with explanations
-- [ ] `reports/experiment_log.csv`
-- [ ] `reports/subgroup_metrics.csv`
-- [ ] `reports/permutation_importance.csv`
-- [ ] `reports/frozen_selection.json` created before final testing
-- [ ] `reports/final_metrics.json` generated once
-- [ ] Two generated PNG charts
-- [ ] Meaningful commits or co-authorship evidence for all group members
-- [ ] Completed group contribution table with names and student IDs
-
-## Final group review
-
-- [ ] One team member verified that the notebook runs from start to finish.
-- [ ] Group discussed and approved the written model-selection rationale.
-- [ ] No one used final-test scores to revise the model.
-- [ ] All three members' contributions are accurately recorded.
-- [ ] One representative will submit the shared URL to the course LMS.
-
 ## GitHub repository URL
 
 [Paste shared repository URL here after publishing]
